@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Cafeteria | SASS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+<body>
+    <header class="header header-galeria">
+       <div class="contenido-header contenedor">
+           <div class="barra">
+               <div class="logo">
+                   <picture>
+                       <img loading="lazy" src="build/img/logo.svg"alt="logo-cafeteria">
+                   </picture>
+
+               </div>
+               <nav class="nav-principal">
+                   <a href="index.html">inicio</a>
+                   <a href="nosotros.html">Nosotros</a>
+                   <a href="proceso.html">Proceso</a>
+                   <a href="menu.html">Menú</a>
+                   <a class="activo" href="galeria.html">Galería</a>
+                   <a href="contacto.html">Contacto</a>
+               </nav>
+           </div>
+           <div class="texto-header">
+               <h1>Disfruta una deliciosa taza de café</h1>
+           </div>
+       </div>
+    </header>
+    <main class="contenedor contenido-principal margin-negativo-10">
+
+        <section class="experiencia">
+            <h2>Vive la<span> experiencia</span></h2>
+            <div class="galeria">
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_01.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_01.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_01.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_02.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_02.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_02.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_03.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_03.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_03.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_04.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_04.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_04.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_05.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_05.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_05.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_06.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_06.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_06.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_07.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_07.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_07.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_08.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_08.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_08.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_09.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_09.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_09.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+                <div class="imagen">
+                   <picture>
+                       <source srcset="build/img/galeria/galeria_10.avif" type="image/avif">
+                       <source srcset="build/img/galeria/galeria_10.webp" type="image/webp">
+                       <img loading="lazy" src="build/img/galeria/galeria_10.jpg" width="500" height="300" alt="">
+                   </picture>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="contenedor contenedor-footer">
+            <div class="footer-box reservacion">
+                <h3 class="text-center">Reservación</h3>
+                <p>Telf. 3584-458</p>
+                <a href="#">Llamar</a>
+            </div>
+            <div class="footer-box horarario">
+                <h3 class="text-center">Horarario</h3>
+                <p>Lun-vier: 11:00 - 22:00 </p>
+                <p>Vier-Juev: 09:00 - 24:00 </p>
+                <p>Domingo: Cerrado</p>
+            </div>
+            <div class="footer-box ubicacion">
+                <h3 class="text-center">Ubicación</h3>
+                <p>Nicolás Copernico</p>
+                <p>Manabí, Portoviejo</p>
+            </div>
+        </div>
+        <p class="copyrigth text_center">Todos los derechos reservados</p>
+    </footer>
+  
+</body>
+</html>

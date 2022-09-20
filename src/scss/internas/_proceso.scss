@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.contenido-proceso{
+    margin-bottom: 5rem;
+
+    @include m.tablet {
+       display: flex;
+       gap: v.$separacion;
+       align-items: center;  
+    }
+    &:last-of-type{
+        margin-bottom: 0;
+    }
+    &:nth-child(even){
+        .texto{
+            order: 1;
+        }
+        .imagen{
+            order: 2;
+        }
+    }
+    .imagen,
+    .texto{
+        flex: 1;
+    }
+
+    .texto{
+        margin-top: 2rem;
+
+        span{
+          border-bottom: solid .3rem v.$secundario;
+        }
+    }
+    @include m.tablet { 
+        h2{
+            text-align: left;
+        }
+        
+     }
+   
+
+}

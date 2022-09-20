@@ -1,0 +1,13 @@
+@use 'variables' as v;
+
+.text_center{
+    text-align: center;;
+}
+.bg-primario{
+    background-color: v.$primario;
+}
+
+.margin-negativo-10{
+    margin-top: -10rem;
+
+}
